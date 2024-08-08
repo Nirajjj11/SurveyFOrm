@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .container {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: rgb(163, 248, 157);
+    box-shadow: #a1ff8a 10px 15px 10px 15px;
+  }
+  
+  .main-heading {
+    font-size: 4rem;
+    margin: 2rem 0rem 1rem;
+    color: rgb(58, 221, 3);
+    text-align: center;
+  }
+  
+  /* form section */
+  .form-class {
+    margin: 2rem 0px;
+    font:solid black;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading-field {
+    margin: 1rem 0px 0.6rem;
+  }
+  
+  .field-head {
+    font-size: 2rem;
+  }
+  
+  .input-div {
+    margin-bottom: 1rem;
+  }
+  
+  .field-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .form-control-input {
+    font-size: 1.5rem;
+    padding: 0.4rem 0px;
+    text-indent: 0.5rem;
+    border: none;
+    outline: 1px solid #999;
+    border-radius: 7px;
+    width: 100%;
+    color: #999;
+  }
+  option {
+    color: #999;
+  }
+  .radio {
+    outline: none;
+  }
+  
+  .form-control-input:focus {
+    color: #212529;
+    background-color: white;
+    border-color: #6088c5;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  
+  .help-text {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+  }
+  
+  button {
+    font-size: 2rem;
+    margin: 0px auto;
+    display: block;
+    color: wite;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(52, 148, 0);
+    background-color: #6bf149;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    
+    box-shadow: rgba(90, 188, 45, 0.2) 10px 8px 15px 10px;
+    
+  }
+  button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* form section ends */
+  
